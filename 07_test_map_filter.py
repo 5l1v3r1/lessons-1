@@ -1,3 +1,5 @@
+import functools
+
 def plus(i):
     return i + 10
 
@@ -35,3 +37,7 @@ print(list(s_sf_filt))
 
 s_sf_filt = [string for string in s_si if 'y' in string.lower()]
 print(s_sf_filt)
+
+print('*'*20)
+l = [3,6,9,4]
+print(functools.reduce(lambda x,y: x + y,l))

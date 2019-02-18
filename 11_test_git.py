@@ -4,7 +4,11 @@
 
 # echo "# lessons" >> README.md
 # git init
-# git add README.md
+# git add README.md добавляем файлы для отслеживания
 # git commit -m "first commit"
 # git remote add origin https://github.com/Solovova/lessons.git
 # git push -u origin master
+
+# git status
+
+# .gitignore
