@@ -12,3 +12,6 @@
 # git status
 
 # .gitignore
+
+# git rm -r --cached . 
+# git add .
